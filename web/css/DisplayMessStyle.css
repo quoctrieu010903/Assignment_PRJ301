@@ -1,0 +1,45 @@
+.box {
+    margin: 20px auto; /* Add margin for better placement */
+    width: 500px; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.box-header {
+    display: flex; /* Arrange header elements horizontally */
+    align-items: center; /* Vertically center header content */
+    justify-content: center;
+    margin-bottom: 10px; /* Add some margin below header */
+}
+
+.box-header p {
+    margin-right: 10px; /* Margin between label and title */
+    font-weight: bold;
+}
+
+.box-content {
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content:space-around;
+}
+
+.box-image {
+    width: 80px; /* Adjust image width as needed */
+    margin-right: 20px; /* Margin between image and text */
+}
+
+.box-content-text h3 {
+    margin: 0; /* Remove default margin */
+}
+
+.box-content__link {
+    text-align: right; /* Align link to the right */
+    margin-top: 10px; /* Add some margin above link */
+}
+
+.box-content__link a {
+    color: #007bff; /* Blue text color for link */
+    text-decoration: none; /* Remove link underline */
+    font-weight: bold;
+}

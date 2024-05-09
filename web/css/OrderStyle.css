@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 24, 2024, 1:58:22 AM
+    Author     : Lương Quốc Triệu - SE172431
+*/
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.order-form {
+    margin: 0 auto; /* Center the form horizontally */
+    width: 600px; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional border */
+}
+
+/* Styling for customer information labels and inputs */
+.customer-info {
+    margin-bottom: 10px; /* Add some margin between info groups */
+}
+
+.customer-info label {
+    display: block; /* Make labels on separate lines */
+    margin-bottom: 5px; /* Add some margin below labels */
+    font-weight: bold;
+}
+
+.customer-info input[type="text"],
+.customer-info select {
+    width: 100%; /* Make inputs and select full width */
+    padding: 5px; /* Add padding for readability */
+    border: 1px solid #ccc; /* Thin border for inputs */
+}
+
+/* Styling for address type select */
+#addressType {
+    width: 150px; /* Adjust width as needed */
+}
+
+/* Styling for freight input */
+#freight {
+    width: 80px; /* Adjust width as needed */
+    text-align: right; /* Align freight value to the right */
+}
+
+/* Styling for cart items table */
+.cart-items {
+    width: 100%; /* Make the table full width */
+    border-collapse: collapse; /* Remove gaps between table cells */
+}
+
+.cart-items th,
+.cart-items td {
+    padding: 5px; /* Add padding for readability */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ccc; /* Thin border for table cells */
+}
+
+/* Styling for table header */
+.cart-items thead th {
+    background-color: #eee; /* Light gray background for header cells */
+}
+
+/* Styling for order actions */
+.order-actions {
+    margin-top: 20px; /* Add some margin above actions */
+    text-align: right; /* Align actions to the right */
+}
+
+.order-actions input[type="submit"] {
+    padding: 5px 10px; /* Add padding for buttons */
+    background-color: #007bff; /* Blue background for submit button */
+    color: #fff; /* White text for button */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Make the button clickable */
+}
+
+.order-actions a {
+    color: #007bff; /* Blue text for link */
+    text-decoration: none; /* Remove link underline */
+    cursor: pointer; /* Make the link clickable */
+}
+
+
