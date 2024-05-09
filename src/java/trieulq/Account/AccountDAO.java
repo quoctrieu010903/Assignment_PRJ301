@@ -21,7 +21,7 @@ import trieulq.Utils.DBUtils;
 public class AccountDAO implements Serializable {
 
     public AccountDTO checkLogin(String accountID, String password) throws SQLException, ClassNotFoundException {
-        Connection conn = null;
+        Connection conn = nusl;
         PreparedStatement ps = null;
         ResultSet rs = null;
         AccountDTO list = new AccountDTO();
